@@ -19,9 +19,7 @@ export default function HomePage() {
         <h1>WELCOME TO BLACKWATER AQUATICS</h1>
 
         <p className="subtext">
-          Thanks for scanning. Looking for live scuds fast? Use the quick order
-          button below, or explore the site, lab notes, contact page, and
-          TikTok.
+          Buy live scuds. Explore guides. Start your culture
         </p>
 
         <a
