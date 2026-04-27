@@ -239,3 +239,30 @@ h1 {
     padding: 18px;
   }
 }
+.reviewCta {
+  display: inline-block;
+  margin-bottom: 26px;
+  margin-left: 10px;
+  padding: 16px 22px;
+  text-decoration: none;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    color 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.reviewCta:hover {
+  background: var(--accent);
+  color: #000;
+  transform: translateY(-2px);
+}

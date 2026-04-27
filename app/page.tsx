@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function HomePage() {
   return (
     <main className="page">
@@ -8,13 +9,13 @@ export default function HomePage() {
 
       <section className="wrap">
         <Image
-  className="logo"
-  src="https://blackwateraquatics.ca/cdn/shop/files/9c0b6d45c3e27bd48858033d0395a3f5fe35d04b14f6d7c63e520e5f50614fd4.png?height=124&v=1764785598"
-  alt="Blackwater Aquatics logo"
-  width={124}
-  height={124}
-  priority
-/>
+          className="logo"
+          src="https://blackwateraquatics.ca/cdn/shop/files/9c0b6d45c3e27bd48858033d0395a3f5fe35d04b14f6d7c63e520e5f50614fd4.png?height=124&v=1764785598"
+          alt="Blackwater Aquatics logo"
+          width={124}
+          height={124}
+          priority
+        />
 
         <h1>WELCOME TO BLACKWATER AQUATICS</h1>
 
@@ -22,14 +23,24 @@ export default function HomePage() {
           Buy live scuds. Explore guides. Start your culture
         </p>
 
+        {/* MAIN CTA */}
         <a
           className="quickCta"
           href="https://blackwateraquatics.ca/products/scud-culture?variant=50685840523549"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Shop scud culture"
         >
           SHOP SCUD CULTURE <span className="arrow">→</span>
+        </a>
+
+        {/* ⭐ GOOGLE REVIEW CTA */}
+        <a
+          className="reviewCta"
+          href="https://g.page/r/CVwEfvQFx5IkEAI/review"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ⭐ LEAVE A 5-STAR REVIEW <span className="arrow">→</span>
         </a>
 
         <nav className="links" aria-label="Quick links">
